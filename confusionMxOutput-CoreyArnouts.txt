@@ -1,0 +1,198 @@
+[[1]]
+Confusion Matrix and Statistics
+
+                       
+bag_class_probabilities failure other success unknown
+                failure    1275   401     194       0
+                other       125    99      23       0
+                success     139    52     226       0
+                unknown       0     0       0   11030
+
+Overall Statistics
+                                          
+               Accuracy : 0.9311          
+                 95% CI : (0.9267, 0.9353)
+    No Information Rate : 0.8132          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7857          
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: failure Class: other Class: success Class: unknown
+Sensitivity                  0.8285     0.179348        0.51016         1.0000
+Specificity                  0.9505     0.988626        0.98544         1.0000
+Pos Pred Value               0.6818     0.400810        0.54197         1.0000
+Neg Pred Value               0.9774     0.965983        0.98349         1.0000
+Prevalence                   0.1135     0.040696        0.03266         0.8132
+Detection Rate               0.0940     0.007299        0.01666         0.8132
+Detection Prevalence         0.1379     0.018210        0.03074         0.8132
+Balanced Accuracy            0.8895     0.583987        0.74780         1.0000
+
+[[2]]
+Confusion Matrix and Statistics
+
+         
+          unknown failure success other
+  unknown   11030       0       0     0
+  failure       0    1310     180   405
+  success       0     138     240    51
+  other         0      91      23    96
+
+Overall Statistics
+                                          
+               Accuracy : 0.9345          
+                 95% CI : (0.9302, 0.9386)
+    No Information Rate : 0.8132          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7962          
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: unknown Class: failure Class: success Class: other
+Sensitivity                  1.0000        0.85120        0.54176     0.173913
+Specificity                  1.0000        0.95135        0.98560     0.991239
+Pos Pred Value               1.0000        0.69129        0.55944     0.457143
+Neg Pred Value               1.0000        0.98038        0.98455     0.965853
+Prevalence                   0.8132        0.11346        0.03266     0.040696
+Detection Rate               0.8132        0.09658        0.01769     0.007078
+Detection Prevalence         0.8132        0.13971        0.03163     0.015482
+Balanced Accuracy            1.0000        0.90128        0.76368     0.582576
+
+[[3]]
+Confusion Matrix and Statistics
+
+         
+          unknown failure success other
+  unknown   11030       0       0     0
+  failure       0    1301     179   402
+  success       0     135     239    53
+  other         0     103      25    97
+
+Overall Statistics
+                                         
+               Accuracy : 0.9339         
+                 95% CI : (0.9296, 0.938)
+    No Information Rate : 0.8132         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.7942         
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: unknown Class: failure Class: success Class: other
+Sensitivity                  1.0000        0.84535        0.53950     0.175725
+Specificity                  1.0000        0.95168        0.98567     0.990163
+Pos Pred Value               1.0000        0.69129        0.55972     0.431111
+Neg Pred Value               1.0000        0.97963        0.98447     0.965889
+Prevalence                   0.8132        0.11346        0.03266     0.040696
+Detection Rate               0.8132        0.09592        0.01762     0.007151
+Detection Prevalence         0.8132        0.13875        0.03148     0.016588
+Balanced Accuracy            1.0000        0.89852        0.76259     0.582944
+
+[[4]]
+Confusion Matrix and Statistics
+
+         
+          failure other success unknown
+  failure    1152   347     139       0
+  other        85    62      19       0
+  success     184    70     178       0
+  unknown     118    73     107   11030
+
+Overall Statistics
+                                         
+               Accuracy : 0.9158         
+                 95% CI : (0.911, 0.9204)
+    No Information Rate : 0.8132         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.7245         
+                                         
+ Mcnemar's Test P-Value : < 2.2e-16      
+
+Statistics by Class:
+
+                     Class: failure Class: other Class: success Class: unknown
+Sensitivity                 0.74854     0.112319        0.40181         1.0000
+Specificity                 0.95958     0.992007        0.98064         0.8824
+Pos Pred Value              0.70330     0.373494        0.41204         0.9737
+Neg Pred Value              0.96755     0.963427        0.97982         1.0000
+Prevalence                  0.11346     0.040696        0.03266         0.8132
+Detection Rate              0.08493     0.004571        0.01312         0.8132
+Detection Prevalence        0.12076     0.012238        0.03185         0.8352
+Balanced Accuracy           0.85406     0.552163        0.69122         0.9412
+
+[[5]]
+Confusion Matrix and Statistics
+
+                         
+rpart_class_probabilities failure other success unknown
+                  failure    1539   552     443       0
+                  other         0     0       0       0
+                  success       0     0       0       0
+                  unknown       0     0       0   11030
+
+Overall Statistics
+                                         
+               Accuracy : 0.9266         
+                 95% CI : (0.9221, 0.931)
+    No Information Rate : 0.8132         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.769          
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: failure Class: other Class: success Class: unknown
+Sensitivity                  1.0000       0.0000        0.00000         1.0000
+Specificity                  0.9173       1.0000        1.00000         1.0000
+Pos Pred Value               0.6073          NaN            NaN         1.0000
+Neg Pred Value               1.0000       0.9593        0.96734         1.0000
+Prevalence                   0.1135       0.0407        0.03266         0.8132
+Detection Rate               0.1135       0.0000        0.00000         0.8132
+Detection Prevalence         0.1868       0.0000        0.00000         0.8132
+Balanced Accuracy            0.9586       0.5000        0.50000         1.0000
+
+[[6]]
+Confusion Matrix and Statistics
+
+         
+vglm_pred failure other success unknown
+  failure    1361   445     276       0
+  other        36    41       9       0
+  success     125    52     154       0
+  unknown      17    14       4   11030
+
+Overall Statistics
+                                          
+               Accuracy : 0.9279          
+                 95% CI : (0.9234, 0.9322)
+    No Information Rate : 0.8132          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7734          
+                                          
+ Mcnemar's Test P-Value : < 2.2e-16       
+
+Statistics by Class:
+
+                     Class: failure Class: other Class: success Class: unknown
+Sensitivity                  0.8843     0.074275        0.34763         1.0000
+Specificity                  0.9400     0.996542        0.98651         0.9862
+Pos Pred Value               0.6537     0.476744        0.46526         0.9968
+Neg Pred Value               0.9845     0.962086        0.97816         1.0000
+Prevalence                   0.1135     0.040696        0.03266         0.8132
+Detection Rate               0.1003     0.003023        0.01135         0.8132
+Detection Prevalence         0.1535     0.006340        0.02440         0.8158
+Balanced Accuracy            0.9122     0.535409        0.66707         0.9931
+

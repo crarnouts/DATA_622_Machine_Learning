@@ -1,0 +1,32 @@
+[[1]]
+                       
+bag_class_probabilities failure other success unknown
+                failure    1262   416     195       0
+                other       133    94      17       0
+                success     144    42     231       0
+                unknown       0     0       0   11030
+
+[[2]]
+         
+          failure other success unknown
+  failure    1152   347     139       0
+  other        85    62      19       0
+  success     184    70     178       0
+  unknown     118    73     107   11030
+
+[[3]]
+                         
+rpart_class_probabilities failure other success unknown
+                  failure    1539   552     443       0
+                  other         0     0       0       0
+                  success       0     0       0       0
+                  unknown       0     0       0   11030
+
+[[4]]
+         
+vglm_pred failure other success unknown
+  failure    1361   445     276       0
+  other        36    41       9       0
+  success     125    52     154       0
+  unknown      17    14       4   11030
+
